@@ -1,0 +1,376 @@
+
+.header__container 
+{
+  padding: 2vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  place-items: center;
+}
+
+.header__logo
+{
+  font-weight: 700;
+  font-size: clamp(20px,5vw,48px);
+  line-height: 72px;
+  color: #0e0578;
+  text-decoration: none;
+}
+
+.header__nav
+{
+  width: 100%;
+}
+.header__menu
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__item
+{
+  display: inline-flex;
+  font-weight: 400;
+  font-size: clamp(25px,6vw,30px);
+  line-height: 45px;
+  color: #686565;
+  position: relative;
+  margin: 10px;
+}
+.header__link {
+  text-decoration: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.designer__container
+{
+  padding: 190px 80px;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: clamp(40px,4vw,80px);
+  
+}
+
+.designer__subtitle
+{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2000e7;
+}
+
+.designer__title
+{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2000E7;
+
+}
+
+.designer__text
+{
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #383838
+
+}
+
+.designer__title_highlight
+{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e0ad17;
+}
+
+.designer__buttons
+{
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  width: 246px;
+  height: 72px;
+  top: 716px;
+  left: 77px;
+  border-radius: 10px;
+}
+.designer__buttons
+{
+  max-width: 350px;
+  gap: 20px;
+  border-color:#2000E7;
+}
+.designer_button 
+{
+  color: white;
+  background-color: #2000E7;
+  width: 89px;
+  height: 36px;
+  top: 735px;
+  left: 153px;
+  border-color: #2000E7;
+  border-radius: 10px;
+  box-shadow: 11px 21px 15px 6px #00000040;
+}
+.designer__button
+{
+  color: #2000E7;
+  background-color: white;
+  width: 123px;
+  height: 36px;
+  top: 734px;
+  left: 469px;
+  border-color: #2000E7;
+  border-radius: 10px;
+  box-shadow: 11px 21px 15px 6px #00000040;
+}
+
+.designer__photo
+{
+  width: 550px;
+  filter: drop-shadow(36px -32px 0px #b9affb);
+  border-radius: 0px 0px 0px 191px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.about__container
+{
+  padding: 206px 46px;
+  background: url("file://wsl.localhost/Ubuntu-22.04/home/antoniy/WWW/www/img/1%201.png") no-repeat right bottom/65%;
+  display: grid;
+  grid-template-columns: 415px;
+  margin-top: 250px;
+}
+.about__title
+{
+  font-size: clamp(30px,6vw,48px);
+  line-height: clamp(50px,7vw,72px);
+  letter-spacing: 0.35em;
+  color: #2000E7;
+}
+.about__text
+{
+  margin-top: 30px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.about__button
+{
+  width: 246px;
+  height: 72px;
+  top: 1687px;
+  left: 77px;
+  border-radius: 10px;
+  box-shadow: 11px 21px 15px 6px #00000040;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+  background-color: #2000E7;
+
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.project-block
+{
+  height: clamp(150px,20vw,300px);
+}
+
+.project
+{
+  background-color: #fff7ea;
+  margin-top: 250px;
+}
+
+.project__container
+{
+  padding: 35px 108px;
+  
+}
+
+.project__title
+{
+  font-size: clamp(30px,6vw,48px);
+  line-height: clamp(50px,7vw,72px);
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #3B1FEA;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.project__text
+{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.project__list
+{
+  list-style-type: none;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  row-gap: clamp(23px,6vw,46px);
+  column-gap: clamp(60px,5vw,186px);
+}
+
+.project__list-item
+{
+  justify-self: center;
+}
+
+.project__lightbox
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: .4s;
+  display: grid;
+  place-content: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.project__lightbox-image
+{
+  height: 30vw;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container_contact__container {
+  padding: 206px 46px;
+  background: #43BAFD0F url("file://wsl.localhost/Ubuntu-22.04/home/antoniy/WWW/www/img/Saly-13.png") no-repeat right bottom/55%;
+  display: grid;
+  grid-template-columns: 415px;
+  margin-top: 250px;
+}
+
+.contact__title {
+  font-size: clamp(30px,6vw,48px);
+  line-height: clamp(50px,7vw,72px);
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #3B1FEA;
+  margin-top: 0;
+  padding-top: 0;
+  width: 1350px;
+  top: 3459px;
+}
+
+.contact__text {
+  width: 1350px;
+  top: 3459px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+.form__input {
+  width: 653px;
+  height: 94px;
+  top: 3827px;
+  left: 66px;
+  background: #FFFFFF;
+  box-shadow: 13px 21px 4px 0px #00000040;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.form_input {
+  width: 653px;
+  height: 94px;
+  top: 4002px;
+  left: 66px;
+  background: #FFFFFF;
+  box-shadow: 13px 21px 4px 0px #00000040;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.form__area {
+  width: 653px;
+  height: 265px;
+  top: 4177px;
+  left: 66px;
+  box-shadow: 13px 21px 4px 0px #00000040;
+  border: none;
+  margin-bottom: 50px;
+  
+}
+
+.form__button {
+  width: 327px;
+  height: 94px;
+  top: 4491px;
+  left: 230px;
+  box-shadow: 13px 21px 4px 0px #00000040;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  color: black;
+  border: none;
+  cursor: pointer;
+  top: 3459px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+input, email {
+
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+
+textarea, text {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
